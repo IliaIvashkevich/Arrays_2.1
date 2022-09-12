@@ -5,7 +5,7 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
 
     String[] products = {"Хлеб", "Колбаса", "Сыр", "Молоко", "Пиво", "Куриное филе", "Кетчуп"};
-    int[] prices = {40, 300, 250, 75, 65, 400, 150};
+    int[] prices = {40, 300, 150, 75, 65, 300, 120};
 
     int sumProducts = 0;
     int[] basket = new int[products.length];
